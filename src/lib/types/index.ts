@@ -1,0 +1,33 @@
+export interface Article {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  contentTitle: string;
+  coverImage: string;
+  category: string;
+  categoryClass: 'badge' | 'badge--purple' | 'badge--red' | 'badge--green';
+  type: string;
+  author: string;
+  date: string;
+  dateText: string;
+  dateModified?: string;
+  readTime: number;
+  tags: string[];
+  eventTitle: string;
+  eventText: string;
+  quote: string;
+  quoteAuthor: string;
+  visualTitle: string;
+  visualText1: string;
+  visualText2: string;
+  gallery: string[];
+  personsTitle: string;
+  personsText: string;
+  musicTitle: string;
+  musicText: string;
+  recommendTitle: string;
+  recommendText: string;
+  isPublished: boolean;
+}
