@@ -1,0 +1,18 @@
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gold circle background -->
+  <circle cx="16" cy="16" r="15" fill="#c9a84c"/>
+  <!-- Theater building - dark fill -->
+  <path d="M8 24V12l8-6 8 6v12H8z" fill="#1a1a2e"/>
+  <!-- Base line -->
+  <path d="M8 24h16" stroke="#1a1a2e" stroke-width="1"/>
+  <!-- Left window -->
+  <rect x="11" y="14" width="3" height="4" rx="0.5" fill="#c9a84c"/>
+  <!-- Right window -->
+  <rect x="18" y="14" width="3" height="4" rx="0.5" fill="#c9a84c"/>
+  <!-- Door -->
+  <rect x="14" y="19" width="4" height="5" rx="0.5" fill="#c9a84c"/>
+  <!-- Roof triangle accent -->
+  <path d="M16 6l-1.5 3h3L16 6z" fill="#1a1a2e"/>
+  <!-- Decorative line -->
+  <path d="M10 12h12" stroke="#c9a84c" stroke-width="0.5"/>
+</svg>
